@@ -52,9 +52,7 @@ public class Cart_Steps extends BaseDriver {
             map.put(d, count);
             count++;
         }
-
         lowestProductRow = map.get(map.firstKey());
-
     }
 
     @When("I am able to remove the lowest price item from my cart")
@@ -79,7 +77,6 @@ public class Cart_Steps extends BaseDriver {
             actualCount = actualCount + Integer.parseInt(quantityValue.getAttribute("value"));
             row++;
         }
-
         Assert.assertEquals("expected: " + expectedCount + " actual: " + actualCount, expectedCount, actualCount);
     }
 }

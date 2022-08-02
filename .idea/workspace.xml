@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a4ab5cb-3ca0-4c7d-973c-a7bb4ee4faae" name="Changes" comment="Initial Commit" />
+    <list default="true" id="1a4ab5cb-3ca0-4c7d-973c-a7bb4ee4faae" name="Changes" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/amit/assignment/pageObjects/Cart_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amit/assignment/pageObjects/Cart_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/amit/assignment/pageObjects/Header_Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amit/assignment/pageObjects/Header_Bar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/amit/assignment/pageObjects/Shop_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amit/assignment/pageObjects/Shop_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/amit/assignment/steps/Cart_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amit/assignment/steps/Cart_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/amit/assignment/steps/Shop_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amit/assignment/steps/Shop_Steps.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

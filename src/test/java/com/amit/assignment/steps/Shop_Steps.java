@@ -1,5 +1,6 @@
 package com.amit.assignment.steps;
 
+import com.amit.assignment.pageObjects.Header_Bar;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
@@ -8,12 +9,12 @@ import org.openqa.selenium.interactions.Actions;
 
 public class Shop_Steps extends BaseDriver {
     Actions actions = new Actions(driver);
-    ;
+    Header_Bar headerPage = new Header_Bar();
 
     @Given("I add {string} random items to my cart")
-    public void i_add_random_items_to_my_cart(String addCount) throws InterruptedException {
+    public void i_add_random_items_to_my_cart(String addCount) {
         int i = 1;
-        int count = Integer.valueOf(addCount);
+        int count = Integer.parseInt(addCount);
 
         while (i <= count) {
             String products = "//ul[@class='products columns-3']/li[" + i + "]";
@@ -30,9 +31,6 @@ public class Shop_Steps extends BaseDriver {
 
     @When("I view my cart")
     public void i_view_my_cart() throws InterruptedException {
-        WebElement cartBtn = driver.findElement(By.xpath("//div[@id='primary-menu']/ul/li/a[contains(text(),'Cart')]"));
-        actions.scrollToElement(cartBtn).build().perform();
-        cartBtn.click();
-        Thread.sleep(4000);
+        headerPage.clickOnCartBtn();
     }
 }

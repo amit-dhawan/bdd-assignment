@@ -1,4 +1,9 @@
 package com.amit.assignment.pageObjects;
 
-public class Shop_Page {
+import com.amit.assignment.steps.BaseDriver;
+
+public class Shop_Page extends BaseDriver {
+
+
+
 }
