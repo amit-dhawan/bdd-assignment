@@ -23,5 +23,8 @@ If you want to run tests navigate to src/test/java/com/amit/assignment/test_runn
 
 - ![image](https://user-images.githubusercontent.com/18731643/182461243-88470c8e-bcbe-48e7-82d2-e621a3b6892d.png)
 
+# Successful HTML report
+
+![img_1.png](img_1.png)
 
 
